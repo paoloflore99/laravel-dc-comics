@@ -11,8 +11,9 @@
     </head>
 <body>
     
-        {{-- @yield('layouts') --}}
+         
         @include('partials.navbar')
+        @yield('content')
         @include('partials.header')
         @include('partials.footer')
 </body>
