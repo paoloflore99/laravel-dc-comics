@@ -1,0 +1,24 @@
+@use "./variables" as *;
+
+header {
+        background-color: black;
+        
+        
+        button {
+        background-color: #0282F9;
+    }
+        img {
+            width: 130px;
+            height: 130px;
+            
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .card {
+            background-color: black;
+        }
+    
+}

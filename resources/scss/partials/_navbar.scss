@@ -1,0 +1,40 @@
+@use "./_variables.scss" as *;
+
+nav {
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.8rem
+    }
+        
+    i {
+        font-size: 0.5rem
+    }
+        
+    .blue {
+        background-color: $colore-uno;
+    }
+    
+    .sfondo-img {
+        background-image: url(/public/images/jumbotron.jpg);
+        // height: 42%;
+        height: 420px;
+    }
+
+    .centratura {
+    
+        align-items: center
+    }
+    
+    .primo-logo {
+        width: 70px;
+    }
+    
+    button {
+        background-color: $colore-uno;
+    }
+    
+    .spostato {
+        margin-top: -30px;
+    }
+}
